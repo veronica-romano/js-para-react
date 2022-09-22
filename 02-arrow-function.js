@@ -47,4 +47,18 @@ console.log(difAr)
 const exemplo1 = () => console.log('Uma arrow function qualquer...')
 exemplo1()
 
+//arrow function sem chaves pois tem apenas uma linha e sem parenteses pois tem apenas um argumento
+const metade = valor => valor / 2;
+console.log(metade(1000))
 
+const multiplicaValores = (val1, fator) => val1 * fator;
+console.log(multiplicaValores(5,5))
+console.log('------------------------------------------')
+console.log(multiplicaValores(4,9))
+
+/* Monte uma arrow function que receba o nome de uma pessoa e a converta para letras maiusculas */
+
+const nomeCaps = nome1 => nome1.toUpperCase();
+console.log(nomeCaps('Veronica'))
+console.log(nomeCaps('Guilherme'))
+console.log(nomeCaps('Luna'))
